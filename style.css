@@ -2,7 +2,6 @@
 article.bg-callout {
   background-color: #570303;
   color: #F5F5DC;
-  
 }
 
 body {
@@ -15,7 +14,7 @@ body {
 }
 
 div.padding {
-  padding: auto;
+  align-self: center;
 }
 
 
@@ -86,7 +85,7 @@ p, li {
   }
   
   p, li {
-    font-size: 17px;
+    font-size: 16px;
   }
 }
 /* stylized links */
