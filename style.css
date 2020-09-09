@@ -41,10 +41,21 @@ img.item {
   justify-content: center;
 }
 
+main {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+p, li {
+  font-size: 12px;
+}
+
 /* Groups & Items (Mobile First) */
 .group {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   margin-bottom: 100px;
 }
 
