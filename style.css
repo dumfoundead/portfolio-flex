@@ -2,6 +2,7 @@
 article.bg-callout {
   background-color: #570303;
   color: #F5F5DC;
+  
 }
 
 body {
@@ -13,6 +14,11 @@ body {
   text-align: center;
 }
 
+div.padding {
+  padding: auto;
+}
+
+
 header {
   background-color: #570303;
 }
@@ -20,8 +26,9 @@ header {
 header h1 {
   color: #F5F5DC;
   font-family: Kristi;
-  font-size: 60px;
+  font-size: 65px;
   font-weight: 200;
+  padding-top: 20px;
   text-align: center;
 }
 
@@ -29,14 +36,9 @@ img {
   width:100%;
 }
 
-main {
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
-p, li {
-  font-size: 16px;
+img.item {
+  flex-direction: row;
+  justify-content: center;
 }
 
 /* Groups & Items (Mobile First) */
@@ -65,8 +67,17 @@ p, li {
   .group {
     flex-direction: row;
   }
-}
 
+  main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+  p, li {
+    font-size: 17px;
+  }
+}
 /* stylized links */
 a:link    { color: #F5F5DC;  }
 a:visited { color: red;   }
